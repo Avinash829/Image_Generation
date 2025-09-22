@@ -1,0 +1,30 @@
+# Node.js dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# Build outputs
+frontend/.next/
+frontend/dist/
+frontend/build/
+backend/dist/
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Lock files (optional if you want to keep them)
+# package-lock.json
+# yarn.lock
