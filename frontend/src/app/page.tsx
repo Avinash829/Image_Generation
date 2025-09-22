@@ -23,7 +23,7 @@ export default function Home() {
         setError("");
 
         try {
-            const res = await fetch("http://localhost:5000/api/generate", {
+            const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/generate`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ prompt }),
